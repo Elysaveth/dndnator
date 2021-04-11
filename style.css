@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+   
+  body {
+    margin: 20px auto;
+    font-family: "Lato";
+    font-weight: 300;
+  }
+
+  .button {
+    margin: 1% 1% auto;
+    font-size: 1.5vw;
+    background-color: #f1fdf1;
+    border-radius: 5px;
+    padding: 0.5%;
+  }
+
+  #personajes {
+    position: absolute;
+    bottom: 0px;
+    width: 60%;
+  }
+
+  #Belrral {
+    text-align: center;
+    margin: 0 auto;
+    float: left;
+    position: absolute;
+    bottom: 0px;
+    left: 0%;
+    z-index: 1;
+  }
+
+  #Jakka {
+    text-align: center;
+    margin: 0 auto;
+    float: left;
+    position: absolute;
+    bottom: 0px;
+    left: 20%;
+    z-index: 2;
+  }
+
+  #Ostara {
+    text-align: center;
+    margin: 0 auto;
+    float: left;
+    position: absolute;
+    bottom: 0px;
+    left: 42%;
+    z-index: 3;
+  }
+
+  #Yasek {
+    text-align: center;
+    margin: 0 auto;
+    float: left;
+    position: absolute;
+    bottom: 0px;
+    left: 72%;
+    z-index: 4;
+  }
+
+  .char {
+    width: 20vw;
+    position: relative;
+    float: left;
+    bottom: 0px;
+  }
+  
+  #chajak {
+    width: 15vw;
+  }
+
+  #figjak {
+    width: 15vw;
+  }
+
+  #norbel {
+    width: 15vw;
+  }
+
+  #hapbel {
+    width: 15vw;
+  }
+
+  #figbel {
+    width: 15vw;
+  }
+
+  #chayas {
+    width: 23vw;
+  }
+
+  #figyas {
+    width: 36vw;
+  }
+
+  #sneyas {
+    width: 20vw;
+  }
+
+  #speyas {
+    width: 22vw;
+  }
+
+  #deayas {
+    width: 22vw;
+  }
+
+  #chaost {
+    width: 16vw;
+    left: 15%;
+  }
+
+  #figost {
+    width: 18vw;
+  }
+
+  #sneost {
+    width: 16vw;
+  }
+
+  #speost {
+    width: 12vw;
+    left: 30%;
+  }
+
+  form {
+    padding: 15px 25px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+   
+  form label {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+   
+  input {
+    font-family: "Lato";
+  }
+   
+  a {
+    color: #0000ff;
+    text-decoration: none;
+  }
+   
+  a:hover {
+    text-decoration: underline;
+  }
+   
+  #loginform {
+    margin: 0 auto;
+    padding-bottom: 25px;
+    max-width: 100%;
+  }
+   
+  #loginform {
+    padding-top: 18px;
+    text-align: center;
+  }
+   
+  #loginform p {
+    padding: 15px 25px;
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+   
+  #chatbox {
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    padding: 10px;
+    background: #fff;
+    height: 300px;
+    width: 530px;
+    border: 1px solid #a7a7a7;
+    overflow: auto;
+    border-radius: 4px;
+    border-bottom: 4px solid #a7a7a7;
+  }
+   
+  #usermsg {
+    flex: 1;
+    border-radius: 4px;
+    border: 1px solid #ff9800;
+  }
+   
+  #name {
+    border-radius: 4px;
+    border: 1px solid #ff9800;
+    padding: 2px 8px;
+  }
+   
+  #submitmsg,
+  #enter{
+    background: #ff9800;
+    border: 2px solid #e65100;
+    color: white;
+    padding: 4px 10px;
+    font-weight: bold;
+    border-radius: 4px;
+  }
+   
+  .error {
+    color: #ff0000;
+  }
+   
+  #menu {
+    padding: 15px 25px;
+    display: flex;
+  }
+   
+  #menu p.welcome {
+    flex: 1;
+  }
+   
+  a#exit {
+    color: white;
+    background: #c62828;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+   
+  .msgln {
+    margin: 0 0 5px 0;
+  }
+   
+  .msgln span.left-info {
+    color: orangered;
+  }
+   
+  .msgln span.chat-time {
+    color: #666;
+    font-size: 60%;
+    vertical-align: super;
+  }
+   
+  .msgln b.user-name, .msgln b.user-name-left {
+    font-weight: bold;
+    background: #546e7a;
+    color: white;
+    padding: 2px 4px;
+    font-size: 90%;
+    border-radius: 4px;
+    margin: 0 5px 0 0;
+  }
+   
+  .msgln b.user-name-left {
+    background: orangered;
+  }
